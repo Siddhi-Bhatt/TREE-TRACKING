@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growth Monitoring & Carbon Captured</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Growth Monitoring & Carbon Captured</h1>
+    <p>Track sapling growth and estimate carbon credits</p>
+  </header>
+
+  <main>
+    <section id="landowner">
+      <h2>Landowner Updates</h2>
+      <form id="growth-update-form">
+        <label for="photo-upload">Upload Growth Photos:</label>
+        <input type="file" id="photo-upload" accept="image/*" multiple required>
+
+        <button type="submit">Submit Updates</button>
+      </form>
+    </section>
+
+    <section id="company">
+      <h2>Company Monitoring</h2>
+      <p>Using advanced AI and satellite data for monitoring.</p>
+      <button onclick="startMonitoring()">Start Remote Monitoring</button>
+      <div id="monitoring-status"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Carbon Capture Program</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.header {
+  color: #4CAF50;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-input {
+  display: none;
+}
+
+.image-preview {
+  margin: 20px 0;
+}
+
+.preview-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.confirmation-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.confirmation-label {
+  margin-left: 5px;
+  color: #555;
+}
+
+.location-section {
+  margin-top: 10px;
+}
+
+.otp-section {
+  margin-top: 20px;
+  color: #555;
+}
+
+.otp-input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.verify-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-message {
+  margin-top: 20px;
+  color: green;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}

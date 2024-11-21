@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Planting & Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tree Planting & Initial Verification</h1>
+
+    <!-- Section for Guidelines -->
+    <section>
+        <h2>Planting Guidelines</h2>
+        <ul id="guidelines">
+            <li>Plant saplings at least 3 feet apart for optimal growth.</li>
+            <li>Ensure saplings receive sufficient sunlight.</li>
+            <li>Water the saplings twice daily for the first month.</li>
+            <li>Use organic fertilizer once every two weeks.</li>
+            <li>Avoid planting in extremely rocky or dry areas.</li>
+        </ul>
+    </section>
+
+    <!-- Section for Reporting Planting -->
+    <section>
+        <h2>Report Planting</h2>
+        <input type="file" id="plantingImage" accept="image/*">
+        <button onclick="reportPlanting()">Submit Planting Report</button>
+        <p id="reportStatus"></p>
+    </section>
+
+    <!-- Section for Verification -->
+    <section>
+        <h2>Verify Planting</h2>
+        <button onclick="verifyPlanting()">Verify Planting via Satellite</button>
+        <p id="verificationStatus"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

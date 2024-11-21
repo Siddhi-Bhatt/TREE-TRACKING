@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbon Credits & Payments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Carbon Credits & Payments</h1>
+    <p>Receive payments for your contributions to sustainability!</p>
+  </header>
+
+  <main>
+    <section id="payment-calculation">
+      <h2>Payment Calculation</h2>
+      <p>Your estimated carbon credits are calculated based on verified data.</p>
+      <button id="calculate-btn">Calculate Payment</button>
+      <div id="payment-details" class="hidden">
+        <h3>Payment Details</h3>
+        <p>Credits Earned: <span id="credits">---</span></p>
+        <p>Total Payment: ₹<span id="payment-amount">---</span></p>
+      </div>
+    </section>
+
+    <section id="landowner">
+      <h2>Receive Payment</h2>
+      <p>Select your preferred payment method to receive your funds:</p>
+      <form id="payment-form">
+        <label for="payment-method">Payment Method:</label>
+        <select id="payment-method" required>
+          <option value="" disabled selected>Select an option</option>
+          <option value="netbanking">Net Banking</option>
+          <option value="upi">UPI</option>
+          <option value="wallet">Digital Wallet</option>
+        </select>
+
+        <button type="submit">Receive Payment</button>
+      </form>
+
+      <div id="success-message" class="hidden">
+        <p>✔ Payment received successfully! Transaction details are available below.</p>
+        <h3>Transaction Details</h3>
+        <p>Transaction ID: <span id="transaction-id">---</span></p>
+        <p>Date: <span id="transaction-date">---</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Carbon Capture Program</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
